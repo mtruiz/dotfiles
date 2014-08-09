@@ -1,0 +1,14 @@
+[color]
+	ui = true
+[alias]
+	br = branch
+	co = checkout
+	st = status
+	di = diff
+	dc = diff --cached
+	tst = status
+[user]
+	name = Matt Ruiz
+	email = mruiz@vailsys.com
+[push]
+	default = current
