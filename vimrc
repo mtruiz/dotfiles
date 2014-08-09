@@ -33,6 +33,7 @@ nnoremap <c-j> <c-w>j
 nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 nnoremap <leader>t :CtrlP<cr>
+nnoremap <leader>d :NERDTreeToggle<cr>
 nnoremap <cr> :nohlsearch<cr>
 
 " Ignore certain directories in CtrlP
