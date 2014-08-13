@@ -12,6 +12,7 @@ set incsearch
 set hlsearch
 set cursorline
 set nobackup
+set directory=~/tmp//
 set autoread
 set laststatus=2
 set number
@@ -34,7 +35,7 @@ nnoremap <c-k> <c-w>k
 nnoremap <c-l> <c-w>l
 nnoremap <leader>t :CtrlP<cr>
 nnoremap <leader>d :NERDTreeToggle<cr>
-nnoremap <cr> :nohlsearch<cr>
+nnoremap <space> :nohlsearch<cr>
 
 " Ignore certain directories in CtrlP
 set wildignore+=*/tmp/*,*.swp
